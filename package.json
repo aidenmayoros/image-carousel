@@ -1,19 +1,20 @@
 {
-  "name": "image-carousel",
-  "version": "1.0.0",
-  "description": "JavaScript project for an image carousel feature",
-  "main": "image-slider.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aidenmayoros/image-carousel.git"
-  },
-  "author": "Aiden Mayoros",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aidenmayoros/image-carousel/issues"
-  },
-  "homepage": "https://github.com/aidenmayoros/image-carousel#readme"
+	"name": "image-carousel",
+	"version": "1.0.0",
+	"description": "JavaScript project for an image carousel feature",
+	"main": "image-slider.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --config webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/aidenmayoros/image-carousel.git"
+	},
+	"author": "Aiden Mayoros",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aidenmayoros/image-carousel/issues"
+	},
+	"homepage": "https://github.com/aidenmayoros/image-carousel#readme"
 }
