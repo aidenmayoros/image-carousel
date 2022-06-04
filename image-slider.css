@@ -1,52 +1,62 @@
 body {
-  text-align: center;
-  background-color: #353535;
+	text-align: center;
+	background-color: #353535;
 }
 
 h1 {
-  font-style: italic;
-  text-decoration: underline;
-  color: white;
-  font-size: 3rem;
+	font-style: italic;
+	text-decoration: underline;
+	color: white;
+	font-size: 3rem;
 }
 
 .imageContainer {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .imageSlider {
-  width: 70%;
-  border: rgb(255, 255, 255) solid;
+	width: 70%;
+	border: rgb(255, 255, 255) solid;
 }
 
 #slider-image-1 {
-  display: inherit;
+	display: inherit;
 }
 
 #slider-image-3,
 #slider-image-4 {
-  display: none;
+	display: none;
 }
 
 #slider-image-1,
 #slider-image-2,
 #slider-image-3,
 #slider-image-4 {
-  position: fixed;
-  box-shadow: black 0.2em 1em 1em;
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+	position: fixed;
+	box-shadow: black 0.2em 1em 1em;
+	animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-ms-animation: fadeIn ease 3s;
 }
 @keyframes fadeIn {
-  0% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
+	0% {
+		opacity: 0.1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.imageSlider {
+		width: 90%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
 }
